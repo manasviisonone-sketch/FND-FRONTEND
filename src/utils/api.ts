@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // API Configuration
-const API_URL = process.env.REACT_APP_API_URL || 'https://fnd-backend-j6ng.onrender.com';
+const API_URL = process.env.REACT_APP_API_URL || 'https://fnd-backend-j6ng.onrender.com/api';
 
 // Create axios instance with default config
 const apiClient = axios.create({
